@@ -127,16 +127,6 @@ h4 {
 }
 
 
-.cell-2 input[type="search"] {
-  width: 80%;
-  padding: 0.5rem;
-  font-size: 0.8rem;
-  box-sizing: border-box;
-  margin-left: auto; /* Aligns the input to the right */
-  display: block;    /* Ensures it's treated as a block-level element */
-}
-
-
 .cell-2 a {
   display: block;
   font-weight: bold;
@@ -160,7 +150,6 @@ h4 {
 }
 
 
-.lang-toggle,
 .contact-me {
   font-size: 0.9rem;
   margin: 0.5rem 0;
@@ -168,7 +157,6 @@ h4 {
   text-align: right; /* default: align right */
 }
 
-.lang-toggle a,
 .contact-me a {
   display: inline;
   color: #b3b2b2;
@@ -177,7 +165,6 @@ h4 {
   font-weight: bold;
 }
 
-.lang-toggle a:hover,
 .contact-me a:hover {
   color: #e55655;
   text-decoration: underline;
