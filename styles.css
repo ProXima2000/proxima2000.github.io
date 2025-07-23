@@ -319,11 +319,6 @@ footer a:hover {
   font-size: 1rem;
 }
 
-.highlight-1 { /* bold font in FAQ */
-  color: #353535;
-  font-weight: bold;
-  font-size: 1rem;
-}
 
 .span-2-rows {
   grid-row: span 2;
