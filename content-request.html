@@ -34,7 +34,7 @@
 
                                 <div class="text-box">
                                         <div class="top-text">
-                                                <h1><a href="index.html">ProXima2000@GitHub</a></h1>
+                                                <h1><a href="index.html"  title="Homepage">ProXima2000@GitHub</a></h1>
                                         </div>
 
                                         <div class="bottom-text">
@@ -190,14 +190,18 @@
 
 
          <footer>    
-                
-                <p class="inline-p"><a href="copyright.html">&copy; 2025 ProXima2000</a></p>
+          
+                <p class="inline-p"><a href="copyright.html">&copy; <span id="year"></span> ProXima2000</a></p>
                 <p class="inline-p"><a href="disclaimer.html">Disclaimer</a></p>
                 <p class="inline-p"><a href="accessibility.html">Accessibility</a></p>
                 <p class="inline-p"><a href="faq.html">FAQ</a></p>
                 <p class="inline-p"><a href="sitemap.html">Site Map</a></p>     
         
         </footer>
+
+                <script>
+                        document.getElementById('year').textContent = new Date().getFullYear();
+                </script>
 	
     </body>
 
